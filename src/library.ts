@@ -1,6 +1,6 @@
 import * as request from "request-promise";
 
-export const BASE_URL = "https://verify.eryn.io/api";
+const BASE_URL = "https://verify.eryn.io/api";
 
 export type DiscordUserId = string;
 export type RobloxUserId = number;

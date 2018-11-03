@@ -1,5 +1,5 @@
 {
-  "name": "verify-eryn-api",
+  "name": "ts-verify-eryn-api",
   "version": "0.0.1",
   "description": "A typescript library that uses the verify.eryn.io Public API to get associations between a Discord account and a Roblox account.",
   "scripts": {

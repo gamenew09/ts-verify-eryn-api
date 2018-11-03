@@ -1,0 +1,27 @@
+{
+  "name": "verify-eryn-api",
+  "version": "0.0.1",
+  "description": "A typescript library that uses the verify.eryn.io Public API to get associations between a Discord account and a Roblox account.",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "prepublishOnly": "tsc"
+  },
+  "main": "./dist/library.js",
+  "types": "./dist/library.d.ts",
+  "author": "gamenew09",
+  "license": "ISC",
+  "dependencies": {
+    "@types/request": "^2.48.0",
+    "@types/request-promise": "^4.1.42",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1"
+  }
+}

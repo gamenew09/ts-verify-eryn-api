@@ -1,0 +1,8 @@
+site_name: ts-verify-eryn-api Documentation
+theme:
+  name: material
+pages:
+  - Info: 'index.md'
+  - Installation: 'installation.md'
+  - Library Exports: 'library-exports.md'
+  - Handling Rejections: 'handling-rejections.md'

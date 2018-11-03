@@ -10,7 +10,15 @@
   "main": "./dist/library.js",
   "types": "./dist/library.d.ts",
   "author": "gamenew09",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gamenew09/ts-verify-eryn-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gamenew09/ts-verify-eryn-api/issues"
+  },
+  "homepage": "https://github.com/gamenew09/ts-verify-eryn-api",
   "dependencies": {
     "@types/request": "^2.48.0",
     "@types/request-promise": "^4.1.42",
